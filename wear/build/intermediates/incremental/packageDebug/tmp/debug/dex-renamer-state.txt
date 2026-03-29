@@ -1,4 +1,4 @@
-#Sun Mar 29 05:32:31 EDT 2026
+#Sun Mar 29 10:06:29 EDT 2026
 base.0=C\:\\Users\\ITXPC\\AndroidStudioProjects\\Hackathon\\wear\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ITXPC\\AndroidStudioProjects\\Hackathon\\wear\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\ITXPC\\AndroidStudioProjects\\Hackathon\\wear\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex

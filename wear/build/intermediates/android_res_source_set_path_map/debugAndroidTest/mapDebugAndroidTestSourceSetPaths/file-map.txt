@@ -1,0 +1,4 @@
+com.example.hackathon.wear.test.wear-updated_navigation_xml-0 C:\Users\ITXPC\AndroidStudioProjects\Hackathon\wear\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.hackathon.wear.test.wear-packageDebugAndroidTestResources-1 C:\Users\ITXPC\AndroidStudioProjects\Hackathon\wear\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+com.example.hackathon.wear.test.wear-packageDebugAndroidTestResources-2 C:\Users\ITXPC\AndroidStudioProjects\Hackathon\wear\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+com.example.hackathon.wear.test.wear-debugAndroidTest-3 C:\Users\ITXPC\AndroidStudioProjects\Hackathon\wear\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

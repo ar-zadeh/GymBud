@@ -1,0 +1,4 @@
+#Sun Mar 29 10:06:29 EDT 2026
+base.0=C\:\\Users\\ITXPC\\AndroidStudioProjects\\Hackathon\\wear\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
