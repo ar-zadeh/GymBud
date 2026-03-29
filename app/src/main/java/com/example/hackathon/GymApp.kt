@@ -1439,7 +1439,7 @@ private fun LoginScreen(
             verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
             Text(
-                text = "GymForge",
+                text = "GymBud",
                 style = MaterialTheme.typography.headlineLarge,
                 fontWeight = FontWeight.ExtraBold
             )

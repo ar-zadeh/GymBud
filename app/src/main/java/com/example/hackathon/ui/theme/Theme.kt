@@ -53,7 +53,7 @@ private val LightColorScheme = lightColorScheme(
 
 @Composable
 fun HackathonTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = true,
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
