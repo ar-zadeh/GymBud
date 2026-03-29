@@ -1,0 +1,2 @@
+com.example.hackathon.wear
+string app_name

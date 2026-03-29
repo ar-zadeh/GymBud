@@ -1,0 +1,8 @@
+            DashboardScreen(
+                state = uiState,
+                onSaveAccount = gymViewModel::saveAccount,
+                onRecordSet = gymViewModel::recordSet,
+                onRecordWorkoutVideo = gymViewModel::saveWorkoutVideo,
+                onSendChat = gymViewModel::sendChat,
+                onGeneratePlan = { gymViewModel.generateRealtimeWorkoutPlan() }
+            )
