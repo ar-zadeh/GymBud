@@ -171,7 +171,11 @@ EXERCISE_DB_HOST=edb-with-videos-and-images-by-ascendapi.p.rapidapi.com
 PIXABAY_API_KEY=...
 ```
 
-### Trainer server
+### Optional trainer server (dev/testing)
+
+iOS runs the trainer fully on-device by default. The server is optional and only
+used if it is running and reachable (useful for shared behavior across platforms
+or for local testing).
 
 From GymBud_android/:
 
@@ -182,7 +186,9 @@ uvicorn trainer_server:app --reload
 
 Notes:
 - The server expects gemma-4-E2B-it.litertlm in the same folder
-- iOS connects to http://127.0.0.1:8000/trainer/chat
+- iOS uses on-device inference unless the server is reachable
+- iOS Simulator can reach a Mac-hosted server at http://127.0.0.1:8000/trainer/chat
+- Physical iPhone: use your Mac LAN IP instead of 127.0.0.1 if testing the server
 - Android emulator connects to http://10.0.2.2:8000/trainer/chat
 
 ## Testing
