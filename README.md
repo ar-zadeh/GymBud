@@ -129,6 +129,19 @@ Key files:
 
 ## Getting Started
 
+## Required Downloads (Models)
+
+Before running the trainer features, download the following model file and place it in the
+correct locations:
+
+- gemma-4-E2B-it.litertlm
+  - iOS on-device trainer: place it in GymBud/GymBud/ and add it to the Xcode app bundle target
+  - Trainer server: place it in GymBud_android/ next to trainer_server.py
+
+Optional (server embeddings):
+
+- all-MiniLM-L6-v2 (downloaded automatically by sentence-transformers on first run)
+
 ### iOS
 
 1) Open GymBud/GymBud.xcodeproj in Xcode
@@ -181,8 +194,8 @@ Android tests:
 ./gradlew connectedAndroidTest
 ```
 
-## Demo Assets
-
+## Demo Assets (Soon)
+TODO:
 Add screenshots and short demo clips here:
 
 - docs/screenshots/...
