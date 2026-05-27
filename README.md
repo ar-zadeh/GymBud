@@ -104,6 +104,14 @@ fallback responses.
 - WatchOS rep counting with warmup calibration and fatigue mode
 - Phone-watch sync for rest timers, rep count, and workout events
 
+### Watch app gestures and features (watchOS + WearOS)
+
+- Warmup calibration: first reps are used to pick the dominant motion axis and set thresholds
+- Rep counting state machine: IDLE -> UP -> DOWN cycles with speed-window validation
+- Fatigue mode: stops counting when rep tempo slows beyond the calibrated range
+- Wrist-flick gesture: 4 alternating-direction flicks within ~2.5s submits a set or skips rest
+- Health and session handling: keeps the workout session active and the screen awake
+
 ### Android and WearOS
 
 - Kotlin + Jetpack Compose, single-activity architecture
