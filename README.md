@@ -1,8 +1,8 @@
-# GymBud
+# GymBud — An AI-enabled gym companion app that doesn't collect your data!
 
 A cross-platform AI fitness coach that builds real workout plans and tracks real workouts.
 GymBud ships the same core experience on iOS/watchOS and Android/WearOS, backed by a
-shared trainer server and an on-device science knowledge base.
+shared trainer server and an on-device science knowledge base. Open source and MIT-licensed.
 
 ## Highlights
 
@@ -11,6 +11,7 @@ shared trainer server and an on-device science knowledge base.
 - Evidence-based planning via a 2020-2025 exercise science synthesis with on-device RAG
 - Watch and WearOS rep counting with calibration, fatigue detection, and wrist gestures
 - Offline-friendly experience with local fallbacks when cloud services are unavailable
+- Open source (MIT license)
 
 ## Trainer Deep Dive
 
@@ -223,4 +224,4 @@ Yes. The on-device model is loaded from the bundle (iOS) or from the server runt
 
 ## License
 
-Add your license here.
+MIT License. See [LICENSE](LICENSE).
