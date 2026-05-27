@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/ITXPC/AndroidStudioProjects/Hackathon/app/src -type f \\\\\\(-name *.kt -o -name *.java -o -name *.xml \\\\\\))",
+      "Bash(find /c/Users/ITXPC/AndroidStudioProjects/Hackathon/wear/src -type f \\\\\\(-name *.kt -o -name *.java -o -name *.xml \\\\\\))",
+      "Bash(xargs grep:*)",
+      "Bash(grep -rn \"MessageClient\\\\|ChannelClient\\\\|CapabilityClient\" /c/Users/ITXPC/AndroidStudioProjects/Hackathon/ --include=*.kt)"
+    ]
+  }
+}

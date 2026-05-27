@@ -1,0 +1,17 @@
+
+                    val cameraSelector = if (isFrontCamera) {
+                        androidx.camera.core.CameraSelector.DEFAULT_FRONT_CAMERA
+                    } else {
+                        androidx.camera.core.CameraSelector.DEFAULT_BACK_CAMERA
+                    }
+
+                    try {
+                        cameraProvider.unbindAll()
+                        cameraProvider.bindToLifecycle(
+                            lifecycleOwner,
+                            cameraSelector,
+                            preview,
+                            imageAnalysis
+                        )
+                    } catch(e: Exception) {
+                        e.printStackTrace()

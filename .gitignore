@@ -1,0 +1,10 @@
+.DS_Store
+
+# Build outputs
+**/build/
+**/DerivedData/
+**/.gradle/
+**/.git.backup/
+
+# Large model files
+**/*.litertlm
